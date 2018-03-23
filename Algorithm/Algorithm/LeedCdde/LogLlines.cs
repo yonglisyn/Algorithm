@@ -77,6 +77,7 @@ namespace Algorithm.LeedCdde
         private bool IsNumberLog(string newLog)
         {
             var firstCharacter = newLog[0];
+            int _;
             return int.TryParse(firstCharacter.ToString(),out _);
         }
     }

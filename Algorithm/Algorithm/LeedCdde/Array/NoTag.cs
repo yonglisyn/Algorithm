@@ -41,15 +41,15 @@ namespace Algorithm.LeedCdde.Array
         public bool Book(int start, int end)
         {
 
-            for (var i = start; i < end; i++)
-            {
-                if (records.TryGetValue(i, out var value))
-                {
-                    if (value == 2)
-                        return false;
-                }
+            //for (var i = start; i < end; i++)
+            //{
+            //    if (records.TryGetValue(i, out var value))
+            //    {
+            //        if (value == 2)
+            //            return false;
+            //    }
 
-            }
+            //}
 
             for (var i = start; i < end; i++)
             {

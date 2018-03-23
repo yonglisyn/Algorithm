@@ -50,6 +50,7 @@
     <Compile Include="LeedCdde\Array\Permutation.cs" />
     <Compile Include="LeedCdde\Array\SubArray.cs" />
     <Compile Include="LeedCdde\LogLlines.cs" />
+    <Compile Include="LeedCdde\String\LengthOfLongestSubstring.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
