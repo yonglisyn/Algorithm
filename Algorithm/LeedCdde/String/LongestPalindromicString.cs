@@ -15,27 +15,28 @@ namespace Algorithm.LeedCdde.String
 
         public string GetLongestPalindrome(string s)
         {
-            var max = 0;
-            var start = 0;
-            var end = 0;
-            for (var i = 0; i < s.Length; i++)
-            {
-                TryOddPalindrome(i, s, out var tmpStart, out var tmpEnd);
-                if (tmpEnd - tmpStart + 1 > max)
-                {
-                    max = tmpEnd - tmpStart + 1;
-                    start = tmpStart;
-                    end = tmpEnd;
-                }
-                TryEvenPalindrome(i, s, out tmpStart, out tmpEnd);
-                if (tmpEnd - tmpStart + 1 > max)
-                {
-                    max = tmpEnd - tmpStart + 1;
-                    start = tmpStart;
-                    end = tmpEnd;
-                }
-            }
-            return s.Substring(start, end - start + 1);
+            //var max = 0;
+            //var start = 0;
+            //var end = 0;
+            //for (var i = 0; i < s.Length; i++)
+            //{
+            //    TryOddPalindrome(i, s, out var tmpStart, out var tmpEnd);
+            //    if (tmpEnd - tmpStart + 1 > max)
+            //    {
+            //        max = tmpEnd - tmpStart + 1;
+            //        start = tmpStart;
+            //        end = tmpEnd;
+            //    }
+            //    TryEvenPalindrome(i, s, out tmpStart, out tmpEnd);
+            //    if (tmpEnd - tmpStart + 1 > max)
+            //    {
+            //        max = tmpEnd - tmpStart + 1;
+            //        start = tmpStart;
+            //        end = tmpEnd;
+            //    }
+            //}
+            //return s.Substring(start, end - start + 1);
+            return string.Empty;
         }
 
 

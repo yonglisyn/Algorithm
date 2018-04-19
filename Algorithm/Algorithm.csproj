@@ -51,6 +51,7 @@
     <Compile Include="LeedCdde\Array\SubArray.cs" />
     <Compile Include="LeedCdde\LogLlines.cs" />
     <Compile Include="LeedCdde\String\LongestPalindromicString.cs" />
+    <Compile Include="LeedCdde\String\StringToInt.cs" />
     <Compile Include="LeedCdde\String\ZigZagStringPattern.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
